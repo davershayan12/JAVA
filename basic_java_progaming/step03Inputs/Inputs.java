@@ -1,7 +1,7 @@
 package basic_java_progaming.step03Inputs;
 import java.util.Scanner;
 
-public class I {
+public class Inputs {
     public static void main(String[] args){
         System.out.print("Enter a double value: ");
         Scanner input = new Scanner(System.in);
