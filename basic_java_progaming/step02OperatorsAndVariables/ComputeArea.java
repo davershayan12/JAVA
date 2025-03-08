@@ -1,4 +1,4 @@
-package basic_java_progaming.step02AreaOfCircle;
+package basic_java_progaming.step02OperatorsAndVariables;
 
 public class ComputeArea {
     public static void main(String[] args){
