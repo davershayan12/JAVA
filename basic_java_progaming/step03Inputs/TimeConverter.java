@@ -14,7 +14,7 @@ public class TimeConverter {
         hours=(time%86400)/3600;
         minutes=(time%3600)/60;
         seconds=time%60;
-        System.out.println(time + "=" + " days: " + days + " hours: " + hours + " minutes: " + minutes + " seconds: " + seconds);
+        System.out.println("time: " + time + " = " + " days: " + days + " hours: " + hours + " minutes: " + minutes + " seconds: " + seconds);
         
         input.close();
 
