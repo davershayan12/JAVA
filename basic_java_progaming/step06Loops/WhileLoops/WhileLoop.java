@@ -1,4 +1,4 @@
-package basic_java_progaming.step06Loops;
+package basic_java_progaming.step06Loops.WhileLoops;
 
 public class WhileLoop {
     public static void main(String[] args){
