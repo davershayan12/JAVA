@@ -1,4 +1,4 @@
-package basic_java_progaming.step05Conditons;
+package basic_java_progaming.step05Conditons.OneWay_if_Statement;
 import java.util.Scanner;
 public class SimpleJava {
     public static void main(String[] args){

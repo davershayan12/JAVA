@@ -1,4 +1,4 @@
-package basic_java_progaming.step03Inputs;
+package basic_java_progaming.step03Inputs.Inputs;
 import java.util.Scanner;
 
 public class Inputs {

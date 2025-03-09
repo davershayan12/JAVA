@@ -5,12 +5,8 @@ public class ComputeArea {
         // Declaring variables
         double area;
         double radius;
-
-        // Assign radius a value
         radius = 10;
         area = radius * radius * 3.142;
-
-        // Printing the results
         System.out.println("Radius: " + radius);
         System.out.println("Area: " + area);
     }

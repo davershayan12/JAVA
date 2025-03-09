@@ -1,4 +1,4 @@
-package basic_java_progaming.step05Conditons;
+package basic_java_progaming.step05Conditons.SwitchCase;
 import java.util.Scanner;
 public class Switch {
     public static void main(String[] args){

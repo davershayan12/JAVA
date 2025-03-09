@@ -1,4 +1,4 @@
-package basic_java_progaming.step03Inputs;
+package basic_java_progaming.step03Inputs.TimeConverter;
 import java.util.Scanner;
 public class TimeConverter {
     public static void main(String[] args){

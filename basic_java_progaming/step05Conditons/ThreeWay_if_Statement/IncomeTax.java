@@ -1,4 +1,4 @@
-package basic_java_progaming.step05Conditons;
+package basic_java_progaming.step05Conditons.ThreeWay_if_Statement;
 import java.util.Scanner;
 public class IncomeTax {
     public static void main (String[] args){

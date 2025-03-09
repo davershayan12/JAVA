@@ -1,4 +1,4 @@
-package basic_java_progaming.step05Conditons;
+package basic_java_progaming.step05Conditons.TwoWay_if_Statement;
 
 import java.util.Scanner;
 
