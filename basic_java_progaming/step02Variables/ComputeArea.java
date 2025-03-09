@@ -1,4 +1,4 @@
-package basic_java_progaming.step02OperatorsAndVariables;
+package basic_java_progaming.step02Variables;
 
 public class ComputeArea {
     public static void main(String[] args){
