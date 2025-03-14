@@ -1,4 +1,4 @@
-package basic_java_progaming.step06Loops.DoWhileloops;
+package basic_java_progaming.step06Loops.DoWhileloops.SingleLoop;
 
 import java.util.Scanner;
 

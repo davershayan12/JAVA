@@ -1,4 +1,4 @@
-package basic_java_progaming.step06Loops.DoWhileloops;
+package basic_java_progaming.step06Loops.DoWhileloops.SingleLoop;
 
 public class DoWhileloop {
     public static void main (String[] args){
