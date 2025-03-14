@@ -1,6 +1,6 @@
 package basic_java_progaming.step07BreakAndContinue.Continue;
 import java.util.Scanner;
-public class Continue {
+public class ContinueExaple {
     public static void main(String[] args){
         Scanner input= new Scanner(System.in);
         int counter=1;
