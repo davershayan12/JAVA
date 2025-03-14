@@ -1,4 +1,4 @@
-package basic_java_progaming.step06Loops.Forloops;
+package basic_java_progaming.step06Loops.Forloops.SingleLoop;
 
 public class Forloop {
     public static void main(String[] args){
