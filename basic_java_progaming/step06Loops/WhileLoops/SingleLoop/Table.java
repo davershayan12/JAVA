@@ -1,4 +1,4 @@
-package basic_java_progaming.step06Loops.WhileLoops;
+package basic_java_progaming.step06Loops.WhileLoops.SingleLoop;
 import java.util.Scanner;
 public class Table {
     public static void main(String[] args){
