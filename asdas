@@ -1,0 +1,25 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Define wave parameters
+x = np.linspace(0, 2*np.pi, 100)
+y1 = np.sin(x)  # Original wave
+y2 = np.sin(x + 225 * np.pi / 180)  # Phase-shifted wave (225° shift)
+
+# Plot waves
+plt.figure(figsize=(8, 5))
+plt.plot(x, y1, label='Original Wave', color='blue')
+plt.plot(x, y2, label='225° Phase Shifted Wave', color='orange', linestyle='dashed')
+
+# Marking specific points
+plt.scatter([0], [np.sin(0)], color='red', label='Point A (0°)')
+plt.scatter([225 * np.pi / 180], [np.sin(225 * np.pi / 180)], color='green', label='Point B (225°)')
+
+# Labels and legend
+plt.xlabel('Time/Distance')
+plt.ylabel('Displacement')
+plt.title('Sine Wave Phase Shift (225°)')
+plt.axhline(0, color='black', linewidth=0.5, linestyle='dotted')
+plt.legend()
+plt.grid(True)
+plt.show()

@@ -5,8 +5,15 @@ public class Continue {
         Scanner input= new Scanner(System.in);
         int counter=1;
         while(counter!=0){
+            System.out.println("Guess a number(0 for quit): ");
             int num=input.nextInt();
-            System.out.println("The user number: " + num);
+            
+            if (num==5){
+                System.out.println("Correct guess!");
+                continue;
+            }
+            System.out.println("Incorect! ");
+            
             counter=num;
         }
         input.close();
