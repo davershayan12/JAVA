@@ -10,7 +10,7 @@ public class StringMethods {
         System.out.println("length:" + message.length());//Return the numbers of characters in string including spaces.
         System.out.println("lowercase: " + message.toLowerCase());//Return charaters in lower case.
         System.out.println("Uppercase: " + message.toUpperCase());//Return charaters in upper case.
-        System.out.println("charAt: " + message.charAt());//Returns the character at the specified index from this string.
+        System.out.println("charAt: " + message.charAt(10));//Returns the character at the specified index from this string.
         System.out.println("concat: " + message.concat(" to everyone."));//Returns a new string that concatenates this string with string inside paranthsis.
         System.out.println("trim: " + message.trim());//Returns a new string with whitespace characters trimmed on both sides.
 
