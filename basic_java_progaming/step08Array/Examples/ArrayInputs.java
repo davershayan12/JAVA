@@ -1,7 +1,7 @@
-package basic_java_progaming.step08Array;
+package basic_java_progaming.step08Array.Examples;
 import java.util.Scanner;
 
-public class Array2 {
+public class ArrayInputs {
     public static void main(String[] args) {
         
         int[] numbers = new int[10];

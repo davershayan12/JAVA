@@ -1,4 +1,4 @@
-package basic_java_progaming.step08Array;
+package basic_java_progaming.step08Array.Examples;
 
 public class Deck {
     public static void main(String[] args){
