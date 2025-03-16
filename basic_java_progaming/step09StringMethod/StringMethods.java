@@ -25,7 +25,7 @@ public class StringMethods {
         /*The methods in can only be invoked from a specific string instance.For this reason, these methods are called instance methods.
          * A non-instance method is called a static method.A static method can be invoked without using an object.All the methods defined in the Math class are static methods. They are not tied to a specific object instance.
         */
-        
+        //example:
         int num=3;
         System.out.println(Math.pow(num,4));
 
