@@ -1,8 +1,5 @@
 package basic_java_progaming.step09StringMethod;
-/*String methods use for obtaining string length, for
-accessing characters in the string, for concatenating strings, for
-converting a string to upper or lowercases, and for trimming a
-string.Strings are objects in Java. */
+/*String methods use for obtaining string length, for accessing characters in the string, for concatenating strings, for converting a string to upper or lowercases, and for trimming a string.Strings are objects in Java. */
 
 public class StringMethods {
     public static void main(String[] args){
@@ -26,8 +23,10 @@ public class StringMethods {
          * A non-instance method is called a static method.A static method can be invoked without using an object.All the methods defined in the Math class are static methods. They are not tied to a specific object instance.
         */
         //example:
+        //Static mothod
         int num=3;
         System.out.println(Math.pow(num,4));
-
+        //intance method
+        System.out.println(message.length());
             }
 }
