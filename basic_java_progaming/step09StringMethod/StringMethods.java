@@ -28,5 +28,23 @@ public class StringMethods {
         System.out.println(Math.pow(num,4));
         //intance method
         System.out.println(message.length());
+
+        //substring:
+        /*
+        You can obtain a single character from a string using the charAt method. You can also obtain substring from a string using the substring method in the String class
+         */
+        System.out.println(message.substring(5));
+        //or
+        System.err.println(message.substring(5, 10));
+
+        /*
+        The String class provides several versions of indexOf and lastIndexOf methods to find a character or a substring in a string.
+         */
+
+
+        //
+        "Welcome to Java".indexOf('o');//returns 4
+        //Returns the index of the first occurrence of ch after fromIndex in the string. Returns -1 if not matched.
+        "Welcome to Java".indexOf('o', 5);
             }
 }
