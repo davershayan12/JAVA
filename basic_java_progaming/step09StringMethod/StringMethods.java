@@ -35,7 +35,7 @@ public class StringMethods {
          */
         System.out.println(message.substring(5));
         //or
-        System.err.println(message.substring(5, 10));
+        System.out.println(message.substring(5, 10));
 
         /*
         The String class provides several versions of indexOf and lastIndexOf methods to find a character or a substring in a string.
@@ -45,6 +45,9 @@ public class StringMethods {
         //
         "Welcome to Java".indexOf('o');//returns 4
         //Returns the index of the first occurrence of ch after fromIndex in the string. Returns -1 if not matched.
-        "Welcome to Java".indexOf('o', 5);
+        "Welcome to Java".indexOf("o", 5);
+        //lastIndexOf(ch) Returns the index of the last occurrence of ch in the string. Returns -1 if not matched.
+        "Welcome to Java".lastIndexOf("o");
+
             }
 }
